@@ -12,5 +12,21 @@ font-family: 'Tiro Devanagari Marathi', serif;
 .div1{  
     text-align: center;
     font-size: 19px;
+   
 }
 
+section{
+        display: flex;
+        min-height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+}
+
+.container{ 
+    background-color: #81C6E8;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 9px;
+    overflow: hidden;
+}
