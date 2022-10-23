@@ -1,8 +1,16 @@
+*{  
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
 body{   
 background-color: #EE6983;
+font-family: 'Tiro Devanagari Marathi', serif;
 }
 
 .div1{  
     text-align: center;
     font-size: 19px;
 }
+
