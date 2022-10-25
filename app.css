@@ -52,4 +52,7 @@ section{
     position: absolute;
     bottom: 0;
     left: 10;
+    font-size: 20px;
+    opacity: .4;
 }
+
