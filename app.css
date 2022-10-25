@@ -50,4 +50,6 @@ section{
 
 .temresult{ 
     position: absolute;
+    bottom: 0;
+    left: 10;
 }
