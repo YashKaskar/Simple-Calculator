@@ -24,9 +24,30 @@ section{
 }
 
 .container{ 
-    background-color: #81C6E8;
+    background-color: #3C4048;
     width: 90%;
     max-width: 400px;
     border-radius: 9px;
     overflow: hidden;
+}
+
+.display{   
+    background-color: #EAEAEA;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: right;
+    position: relative;
+}
+
+.display-1{ 
+    opacity: .4;
+    font-size: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.temresult{ 
+    position: absolute;
 }
