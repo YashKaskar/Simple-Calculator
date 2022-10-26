@@ -79,3 +79,19 @@ section{
 .btn-0{ 
     grid-column: 1/3;
 }
+
+.allclear{  
+    background-color: #E0144C;
+}
+
+.alllastclear{  
+    background-color: #E0144C;
+}
+
+.allclear:hover{    
+    background-color: #CF0A0A;
+}
+
+.alllastclear:hover{    
+    background-color: #CF0A0A;
+}
