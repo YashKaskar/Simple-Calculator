@@ -1,1 +1,1 @@
-const display1 = document.querySelector('.display-1')
+const display = document.querySelector('.display-1')
