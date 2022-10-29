@@ -14,4 +14,14 @@ let result = '';
 let lastoperation = '';
 let dot = false;
 
-number
+
+numberEl.forEach(number => {
+    number.addEventListener('click', (e) => { 
+        if (e.target.innerText === '.' && !dot) {  
+            dot = true;
+        } else if (e.target.innerText === '.' && dot) {  
+            return;
+      }
+  })  
+    
+});
