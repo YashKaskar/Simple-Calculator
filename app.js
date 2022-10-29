@@ -13,3 +13,5 @@ let display2Number = '';
 let result = '';
 let lastoperation = '';
 let dot = false;
+
+number
