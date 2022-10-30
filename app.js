@@ -16,6 +16,7 @@ let lastOperation = '';
 let dot = false;
 
 
+// display2 numbers and dot
 numbersel.forEach( number => {
     number.addEventListener('click', (e) => {    
         if(e.target.innerText === '.' && !dot){
@@ -27,3 +28,5 @@ numbersel.forEach( number => {
         display2el.innerText = display2Num;
     })
 })
+
+// mathematical operation
