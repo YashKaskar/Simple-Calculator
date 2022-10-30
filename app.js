@@ -8,3 +8,22 @@ const equalel = document.querySelector('.equal');
 const clearel = document.querySelector('.allclear');
 const cleareel = document.querySelector('.alllastclear');
 
+// Variables :
+let display1Num = '';
+let display2Num = '';
+let result = null;
+let lastOperation = '';
+let dot = false;
+
+
+numbersel.forEach( number => {
+    number.addEventListener('click', (e) => {    
+        if(e.target.innerText === '.' && !dot){
+            dot = true;
+        } else if (e.target.innerText === '.' && dot) { 
+            return;
+        }
+        display2Num += e.target.innerText;
+        display2el.innerText = display2Num;
+    })
+})
