@@ -1,27 +1,10 @@
-const display1 = document.querySelector('.display-1');
-const display2 = document.querySelector('.display-2');
-const temresultEl = document.querySelector('.temresult');
-const numberEl = document.querySelector('.number');
-const operationEl = document.querySelector('.operation');
-const equalEl = document.querySelector('.equal');
-const allclearEl = document.querySelector('.allclear');
-const alllastclearEl = document.querySelector('.alllastclear'); 
+const display1el = document.querySelector('.display-1');
+const display2el = document.querySelector('.display-2');
+const tempresultel = document.querySelector('.temresult');
 
+const numbersel = document.querySelectorAll('.number');
+const operationel = document.querySelectorAll('.operation');
+const equalel = document.querySelector('.equal');
+const clearel = document.querySelector('.allclear');
+const cleareel = document.querySelector('.alllastclear');
 
-let display1Number = '';
-let display2Number = '';
-let result = '';
-let lastoperation = '';
-let dot = false;
-
-
-numberEl.forEach(number => {
-    number.addEventListener('click', (e) => { 
-        if (e.target.innerText === '.' && !dot) {  
-            dot = true;
-        } else if (e.target.innerText === '.' && dot) {  
-            return;
-      }
-  })  
-    
-});
