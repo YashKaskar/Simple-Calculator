@@ -40,5 +40,15 @@ operationel.forEach(operation => {
         } else {  
             result = parseFloat(display2Num)
         }
+        clearVar(operationName);
+        console.log(result);
     })
 })
+
+function clearVar(name = '') {  
+    display1Num += display2Num + '' + name + '';
+    display1el.innerText = display1Num;
+    display2el.innerText = '';
+    display2Num = '';
+    tempresultel.innerText = result;
+}
