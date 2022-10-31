@@ -30,3 +30,15 @@ numbersel.forEach( number => {
 })
 
 // mathematical operation
+operationel.forEach(operation => {  
+    operation.addEventListener('click', (e) => {  
+        if (!display2Num) return;
+        dot = false;
+        const operationName = e.target.innerText;
+        if (display1Num && display2Num && lastOperation) {    
+            mathOperation();
+        } else {  
+            result = parseFloat(display2Num)
+        }
+    })
+})
