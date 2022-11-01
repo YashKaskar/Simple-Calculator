@@ -30,3 +30,8 @@ numbersel.forEach( number => {
 })
 
 // mathematical operation
+operationel.forEach(operation => {
+    operation.addEventListener('click', (e) => {    
+            
+        })
+})
