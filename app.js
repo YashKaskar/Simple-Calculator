@@ -50,4 +50,5 @@ function clearVar(name = '') {
     display1el.innerText = display1Num;
     display2el.innerText = '';
     display2Num = '';
+    tempresultel.innerText = result;
 }
