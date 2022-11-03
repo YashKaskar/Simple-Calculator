@@ -78,4 +78,16 @@ equalEl.addEventListener("click", () => {
     tempResultEl.innerText = "";
     dis2Num = result;
     dis1Num = "";
-  });
+});
+
+
+// allclear 
+  
+clearAllEl.addEventListener("click", () => {
+  dis1Num = "";
+  dis2Num = "";
+  display1El.innerText = "";
+  display2El.innerText = "";
+  result = "";
+  tempResultEl.innerText = "";
+});
