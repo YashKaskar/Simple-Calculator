@@ -91,3 +91,10 @@ clearAllEl.addEventListener("click", () => {
   result = "";
   tempResultEl.innerText = "";
 });
+
+// alllastclear
+
+clearLastEl.addEventListener("click", () => {
+  display2El.innerText = "";
+  dis2Num = "";
+});
